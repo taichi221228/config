@@ -54,17 +54,14 @@ alias brun="brew uninstall"
 
 # Docker
 alias dc="docker"
+alias dcc="docker compose"
+alias dccdn="docker compose down"
+alias dccup="docker compose up"
+alias dccstt="docker compose start"
+alias dccstp="docker compose stop"
 alias dce="docker exec"
 alias dceit="docker exec -it"
 alias dcps="docker ps"
-
-# Docker Compose
-alias dcc="docker-compose"
-alias dccdn="docker-compose down"
-alias dccup="docker-compose up"
-alias dccupd="docker-compose up -d"
-alias dccstt="docker-compose start"
-alias dccstp="docker-compose stop"
 
 # npm
 alias n="npm"
