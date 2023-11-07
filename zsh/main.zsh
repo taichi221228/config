@@ -33,10 +33,6 @@ fi
 # Fig
 export FIG_WORKFLOWS_KEYBIND="^\\"
 
-# Oh My ZSH
-# shellcheck disable=SC2034
-ZSH_THEME="awesomepanda"
-
 # Bun
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
