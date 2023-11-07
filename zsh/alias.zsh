@@ -60,8 +60,10 @@ alias dccup="docker compose up"
 alias dccstt="docker compose start"
 alias dccstp="docker compose stop"
 alias dce="docker exec"
-alias dceit="docker exec -it"
 alias dcps="docker ps"
+alias dcr="docker run"
+alias dcstt="docker start"
+alias dcstp="docker stop"
 
 # npm
 alias n="npm"
