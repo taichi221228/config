@@ -3,7 +3,7 @@
 alias ac_="appcode"
 alias cl_="clion"
 alias dg_="datagrip"
-alias ds_="datagrip"
+alias ds_="dataspell"
 alias go_="goland"
 alias ij_="intelij"
 alias ps_="phpstorm"
