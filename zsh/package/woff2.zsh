@@ -6,6 +6,6 @@ function woff2() {
   elif [ "$1" = "decompress" ]; then
     woff2_decompress "$2"
   else
-    echo "woff2: command not found"
+    echo "Usage: woff2 [compress|decompress] [file]"
   fi
 }
