@@ -4,7 +4,7 @@ function yamano:cpimg() {
   scp -r -i ~/.ssh/yamano.pem taichi.fukuda@"$1":'/tmp/CooperateChirashiImage_*' .
 }
 
-yamano:cpimg_comp() {
+_yamano:cpimg_comp() {
   if [ "$CURRENT" = 2 ]; then
     while IFS= read -r l; do
       hosts+=("$l")
@@ -15,4 +15,4 @@ yamano:cpimg_comp() {
   fi
 }
 
-compdef yamano:cpimg_comp yamano:cpimg
+compdef _yamano:cpimg_comp yamano:cpimg
