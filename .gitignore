@@ -1,2 +1,8 @@
 # JetBrains
+
 .idea/workspace.xml
+
+# SSH
+
+known_hosts
+ssh/vault

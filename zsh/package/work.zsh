@@ -8,7 +8,7 @@ _yamano:cpimg_comp() {
   if [ "$CURRENT" = 2 ]; then
     while IFS= read -r l; do
       hosts+=("$l")
-    done < <(grep -E '^Host yamano[^*]+$' ~/.ssh/yamano_config | awk '{print $2}')
+    done < <(grep -E '^Host yamano[^*]+$' ~/.ssh/vault/yamano/config | awk '{print $2}')
     IFS=$' \t\n'
 
     compadd -a hosts
