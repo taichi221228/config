@@ -6,6 +6,7 @@ set -o ignoreeof
 
 zsh ./zsh/init.zsh
 zsh ./brew/init.zsh
+zsh ./duti/init.zsh
 zsh ./emacs/init.zsh
 zsh ./clam-av/init.zsh
 zsh ./dict/init.zsh
