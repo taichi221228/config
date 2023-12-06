@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 function yamano:cpimg() {
-  scp -r -i ~/.ssh/yamano.pem taichi.fukuda@"$1":'/tmp/CooperateChirashiImage_*' .
+  scp -r taichi.fukuda@"$1":'/tmp/CooperateChirashiImage_*' .
 }
 
 _yamano:cpimg_comp() {
