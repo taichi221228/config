@@ -5,4 +5,4 @@
 # SSH
 
 known_hosts
-ssh/vault
+.ssh/vault
