@@ -9,6 +9,8 @@ fi
 
 alias br="brew"
 alias brin="brew install"
+alias brinc="brew install --cask"
+alias brup="brew update"
 alias brls="brew list"
 alias brs="brew search"
 alias brun="brew uninstall"
