@@ -5,7 +5,7 @@ FILE=clamav-1.0.0-rc2
 # download
 cd ~ || exit
 curl -LO "https://www.clamav.net/downloads/production/$FILE.tar.gz"
-tar zxf $FILE.tar.gz
+tar zxf $FILE.tar.gz # FIX: not working
 
 # build
 cd $FILE || exit
@@ -36,4 +36,4 @@ sudo make install
 
 # cleanup
 cd ~ || exit
-rm -rf $FILE "$FILE.tar.gz"
+rm -rf $FILE "$FILE.tar.gz" # FIX: not working

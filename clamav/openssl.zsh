@@ -5,7 +5,7 @@ FILE=libressl-3.7.3
 # download
 cd ~ || exit
 curl -LO "https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/$FILE.tar.gz"
-tar zxf "$FILE.tar.gz"
+tar zxf "$FILE.tar.gz" # FIX: not working
 
 # configure
 cd $FILE || exit
@@ -16,4 +16,4 @@ make && sudo make install
 
 # cleanup
 cd ~ || exit
-rm -rf $FILE "$FILE.tar.gz"
+rm -rf $FILE "$FILE.tar.gz" # FIX: not working
