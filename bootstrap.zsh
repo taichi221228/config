@@ -8,7 +8,7 @@ zsh ./zsh/init.zsh
 zsh ./brew/init.zsh
 zsh ./duti/init.zsh
 zsh ./emacs/init.zsh
-zsh ./clam-av/init.zsh
+zsh ./clamav/init.zsh
 zsh ./dict/init.zsh
 zsh ./karabiner/init.zsh
 zsh ./ssh/init.zsh
