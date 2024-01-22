@@ -2,13 +2,13 @@
 
 FILE=pkg-config-0.29.2
 
-# donwload
-cd ~
+# download
+cd ~ || exit
 curl -O "https://pkg-config.freedesktop.org/releases/$FILE.tar.gz"
 tar zxf "$FILE.tar.gz"
 
 # configure
-cd $FILE
+cd $FILE || exit
 export LDFLAGS="-framework CoreFoundation"
 ./configure --with-internal-glib --prefix=/usr/local/pkgconfig
 
@@ -16,5 +16,5 @@ export LDFLAGS="-framework CoreFoundation"
 make && sudo make install
 
 # cleanup
-cd ~
+cd ~ || exit
 rm -rf $FILE "$FILE.tar.gz"
