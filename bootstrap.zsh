@@ -11,6 +11,7 @@ zsh ./emacs/init.zsh
 zsh ./clamav/init.zsh
 zsh ./dict/init.zsh
 zsh ./karabiner/init.zsh
+zsh ./onyx/init.zsh
 zsh ./ssh/init.zsh
 
 defaults write -g ApplePressAndHoldEnabled -bool false
