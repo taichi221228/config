@@ -1,0 +1,6 @@
+---
+"editor:edit_link": none
+"ai_assistant_panel:reset_context": none
+"terminal:focus_input": alt-f12
+"ai_assistant_panel:focus_terminal_input": alt-f12
+"terminal:warpify_subshell": ctrl-cmd-i
