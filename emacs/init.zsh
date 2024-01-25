@@ -1,3 +1,3 @@
 #!/usr/bin/env zsh
 
-curl -L https://git.io/epre | sh
+ln -s "$HOME/Library/Mobile Documents/com~apple~CloudDocs/Configs/emacs/.emacs.d" "$HOME"
