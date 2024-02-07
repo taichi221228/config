@@ -19,6 +19,8 @@ brew "deno"
 brew "docker", link: false
 brew "docker-compose"
 brew "duti"
+brew "elixir"
+brew "elm"
 brew "unbound"
 brew "gnutls"
 brew "emacs"
