@@ -14,3 +14,4 @@ alias restart='exec $SHELL -l'
 alias rmrf='rm -rf'
 alias src="source"
 alias srcz='source $HOME/.zshrc & fig source'
+alias wh='which'
