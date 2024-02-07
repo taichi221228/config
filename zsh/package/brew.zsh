@@ -9,10 +9,10 @@ fi
 
 alias br="brew"
 alias brb='(cd $F/brew && brew bundle)'
-alias brbd='(cd $F/brew && brew bundle dump --force)'
-alias brin="brew install"
-alias brinc="brew install --cask"
-alias brup="brew update"
+alias brbd='(cd $F/brew && brew bundle dump --force) && echo "Brewfile updated"'
+alias bri="brew install"
+alias bric="brew install --cask"
 alias brls="brew list"
 alias brs="brew search"
-alias brun="brew uninstall"
+alias bru="brew uninstall"
+alias brup="brew update"
