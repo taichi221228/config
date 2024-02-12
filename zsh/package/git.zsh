@@ -14,7 +14,11 @@ alias gf='git fetch --all'
 alias gm='git merge'
 alias gma='git merge --abort'
 alias gp='git push'
+alias gpo='git push origin'
+alias gpoc='git push origin $(git rev-parse --abbrev-ref HEAD)'
 alias gpf='git push --force'
+alias gpfo='git push --force origin'
+alias gpfoc='git push --force origin $(git rev-parse --abbrev-ref HEAD)'
 alias gpl='git pull'
 alias gr='git rebase'
 alias gra='git rebase --abort'
@@ -23,3 +27,7 @@ alias grs='git reset'
 alias grsh='git reset --hard'
 alias gs='git status'
 alias gl='git log'
+
+function grea() {
+  git remote add origin https://github.com/taichi221228/"$1"
+}
