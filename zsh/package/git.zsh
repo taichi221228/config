@@ -22,6 +22,7 @@ alias gpfoc='git push --force origin $(git rev-parse --abbrev-ref HEAD)'
 alias gpl='git pull'
 alias gr='git rebase'
 alias gra='git rebase --abort'
+alias gre='git remote'
 alias grl="git reflog"
 alias grs='git reset'
 alias grsh='git reset --hard'
