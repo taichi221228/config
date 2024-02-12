@@ -14,7 +14,7 @@ export P="$HOME/Projects"
 export R="$HOME/Dropbox"
 export W="$HOME/Works"
 
-alias A="cd /Applications"
+alias A='cd /Applications'
 alias C='cd $HOME/Contributions'
 alias F='cd $REMOTE_HOME/Configs'
 alias D='cd $HOME/Desktop'

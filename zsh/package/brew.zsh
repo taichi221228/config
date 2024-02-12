@@ -7,13 +7,13 @@ elif [[ $ARCH == x86_64 ]]; then
   eval "$(/usr/local/bin/brew shellenv)"
 fi
 
-alias br="brew"
+alias br='brew'
 alias brb='(cd $F/brew && brew bundle)'
 alias brbd='(cd $F/brew && brew bundle dump --force) && echo "Brewfile updated"'
-alias bri="brew install"
-alias bric="brew install --cask"
-alias brls="brew list"
-alias brs="brew search"
-alias bru="brew uninstall"
-alias brup="brew update"
-alias brri="brew reinstall"
+alias bri='brew install'
+alias bric='brew install --cask'
+alias brls='brew list'
+alias brs='brew search'
+alias bru='brew uninstall'
+alias brup='brew update'
+alias brri='brew reinstall'

@@ -1,3 +1,3 @@
 #!/usr/bin/env zsh
 
-alias art="php artisan"
+alias art='php artisan'
