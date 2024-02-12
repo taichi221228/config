@@ -1,9 +1,11 @@
 #!/usr/bin/env zsh
 
 alias nb="nr build"
+alias nc="pnpm create"
 alias nd="nr dev"
 alias nf="nr format"
 alias nid="ni -D"
+alias nit="pnpm init"
 alias nig="ni -g"
 alias nl="nr lint"
 alias nlf="nr lint --fix"
