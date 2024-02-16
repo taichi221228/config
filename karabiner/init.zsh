@@ -2,4 +2,4 @@
 
 rm "$HOME/.config/karabiner/karabiner.json"
 
-ln -s "$CONFIGS/karabiner/karabiner.json" "$HOME/.config/karabiner/karabiner.json"
+ln -s "$F/karabiner/karabiner.json" "$HOME/.config/karabiner/karabiner.json"

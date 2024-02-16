@@ -2,4 +2,4 @@
 
 mkdir "$HOME/Library/KeyBindings"
 
-ln -s "$CONFIGS/dict/DefaultKeyBinding.dict" "$HOME/Library/KeyBindings"
+ln -s "$F/dict/DefaultKeyBinding.dict" "$HOME/Library/KeyBindings"
