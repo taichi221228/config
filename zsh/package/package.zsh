@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-PACKAGE="$HOME/Library/Mobile Documents/com~apple~CloudDocs/Configs/zsh/package"
+PACKAGE="$HOME/Library/Mobile Documents/com~apple~CloudDocs/Configs/general/zsh/package"
 
 source "$PACKAGE/general.zsh"
 source "$PACKAGE/directory.zsh"
