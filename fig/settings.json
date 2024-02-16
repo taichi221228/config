@@ -7,7 +7,7 @@
   "autocomplete.hidePreviewWindow": true,
   "autocomplete.keybindings.enter": "insertSelected",
   "autocomplete.keybindings.tab": "insertCommonPrefixOrNavigateDown",
-  "autocomplete.theme": "solarized-dark",
+  "autocomplete.theme": "system",
   "autocomplete.width": 600,
   "dotfiles.sourceImmediately": "always",
   "dotfiles.syncImmediately": false,
@@ -16,6 +16,5 @@
   "integrations.hyper.disabled": true,
   "integrations.iterm.disabled": true,
   "integrations.terminal.disabled": false,
-  "integrations.vscode.disabled": true,
-  "ssh.remote-prompt": "never"
+  "integrations.vscode.disabled": true
 }
