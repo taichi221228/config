@@ -2,10 +2,6 @@
 
 .idea/workspace.xml
 
-# Emacs
-
-emacs
-
 # SSH
 
 known_hosts*
