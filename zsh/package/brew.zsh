@@ -8,8 +8,8 @@ elif [[ $ARCH == x86_64 ]]; then
 fi
 
 alias br='brew'
-alias brb='(cd $F/brew && brew bundle)'
-alias brbd='(cd $F/brew && brew bundle dump --force) && echo "Brewfile updated"'
+alias brb='(cd $F/general/brew && brew bundle)'
+alias brbd='(cd $F/general/brew && brew bundle dump --force) && echo "Brewfile updated"'
 alias bri='brew install'
 alias bric='brew install --cask'
 alias brls='brew list'

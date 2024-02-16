@@ -2,4 +2,4 @@
 
 rm "$HOME/.warp"
 
-ln -s "$F/warp/.warp" "$HOME/.warp"
+ln -s "$F/general/warp/.warp" "$HOME/.warp"
