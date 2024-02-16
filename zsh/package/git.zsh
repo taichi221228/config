@@ -34,5 +34,10 @@ alias gs='git status'
 alias gl='git log'
 
 function grea() {
+  if [ $# -eq 0 ]; then
+    echo "Error: No repository name provided."
+    return 1
+  fi
+
   git remote add origin https://github.com/taichi221228/"$1"
 }
