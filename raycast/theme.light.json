@@ -1,0 +1,21 @@
+{
+  "author": "Taichi Fukuda",
+  "authorUsername": "taichi221228",
+  "version": "1",
+  "name": "Solarized Light",
+  "appearance": "light",
+  "colors": {
+    "background": "#FDF6E3",
+    "backgroundSecondary": "#FDF6E3",
+    "text": "#657B83",
+    "selection": "#93A1A1",
+    "loader": "#657B83",
+    "red": "#DC632F",
+    "orange": "#CB4C16",
+    "yellow": "#B58900",
+    "green": "#859900",
+    "blue": "#268BD2",
+    "purple": "#6C71C4",
+    "magenta": "#D33682"
+  }
+}
