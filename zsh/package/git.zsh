@@ -35,6 +35,7 @@ alias grmrc='git rm -r --cached'
 alias grs='git reset'
 alias grsh='git reset --hard'
 alias gs='git status'
+alias gsh='git show'
 alias gl='git log'
 
 function grea() {
