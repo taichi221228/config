@@ -2,7 +2,7 @@
   "app.hideMenubarIcon": false,
   "app.preferredTerminal": "Hyper",
   "autocomplete.disable": false,
-  "autocomplete.fontFamily": "'UDEV Gothic 35NFLG', Menlo, Monaco, 'Courier New', monospace",
+  "autocomplete.fontFamily": "\"UDEV Gothic 35NFLG\", \"UDEV Gothic 35JPDOC\", Menlo, Monaco, 'Courier New', monospace",
   "autocomplete.height": 200,
   "autocomplete.hidePreviewWindow": true,
   "autocomplete.keybindings.enter": "insertSelected",
