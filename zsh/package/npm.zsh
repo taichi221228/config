@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
 
+alias np='npm'
 alias npc='npm create'
 alias npb='npm run build'
 alias npd='npm run dev'
