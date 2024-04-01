@@ -16,5 +16,6 @@
   "integrations.hyper.disabled": true,
   "integrations.iterm.disabled": true,
   "integrations.terminal.disabled": false,
-  "integrations.vscode.disabled": true
+  "integrations.vscode.disabled": true,
+  "ssh.remote-prompt": "never"
 }
