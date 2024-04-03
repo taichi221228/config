@@ -1,5 +1,6 @@
 # JetBrains
 
+.idea/copilot
 .idea/workspace.xml
 
 # SSH
