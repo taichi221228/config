@@ -44,5 +44,6 @@ function grea() {
     return 1
   fi
 
+  gh repo create "$1" --public
   git remote add origin https://github.com/taichi221228/"$1"
 }
