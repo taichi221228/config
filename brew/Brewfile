@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+brew "go"
 cask "forklift"
 cask "insomnia"
 cask "min"
