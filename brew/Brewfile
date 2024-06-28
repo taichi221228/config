@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 cask "arc"
 cask "figma"
+cask "font-udev-gothic"
 cask "insomnia"
 cask "istat-menus"
 cask "jetbrains-toolbox"
