@@ -1,7 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 brew "go"
-cask "deepl"
 cask "forklift"
 cask "insomnia"
 cask "orbstack"
