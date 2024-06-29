@@ -11,7 +11,6 @@ export I="$REMOTE_HOME"
 export L="$HOME/Downloads"
 export O="$HOME/Documents"
 export P="$HOME/Projects"
-export R="$HOME/Dropbox"
 export W="$HOME/Works"
 
 alias A='cd /Applications'
@@ -23,5 +22,4 @@ alias I='cd $REMOTE_HOME'
 alias L='cd $HOME/Downloads'
 alias O='cd $HOME/Documents'
 alias P='cd $HOME/Projects'
-alias R='cd $HOME/Dropbox'
 alias W='cd $HOME/Works'
