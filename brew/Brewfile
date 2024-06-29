@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 brew "gh"
 cask "arc"
+cask "browserosaurus"
 cask "figma"
 cask "font-udev-gothic"
 cask "font-udev-gothic-nf"
