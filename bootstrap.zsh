@@ -13,4 +13,6 @@ zsh ./ssh/init.zsh
 
 defaults write -g ApplePressAndHoldEnabled -bool false
 
+mkdir -p ~/Contributions ~/Projects ~/Works
+
 source "$HOME/.zshrc"
