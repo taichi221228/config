@@ -1,4 +1,5 @@
 tap "homebrew/bundle"
+brew "gh"
 cask "arc"
 cask "figma"
 cask "font-udev-gothic"
