@@ -13,6 +13,4 @@ zsh ./ssh/init.zsh
 
 defaults write -g ApplePressAndHoldEnabled -bool false
 
-sudo find / -name ".localized" -or -name ".DS_Store" -depth -exec rm {} \; 2>/dev/null
-
 source "$HOME/.zshrc" && fig source
