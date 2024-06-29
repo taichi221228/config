@@ -13,4 +13,4 @@ zsh ./ssh/init.zsh
 
 defaults write -g ApplePressAndHoldEnabled -bool false
 
-source "$HOME/.zshrc" && fig source
+source "$HOME/.zshrc"
