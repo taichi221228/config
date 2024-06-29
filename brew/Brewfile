@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "oven-sh/bun"
 brew "gh"
+brew "volta"
 brew "oven-sh/bun/bun"
 cask "arc"
 cask "browserosaurus"
