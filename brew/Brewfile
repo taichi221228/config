@@ -1,5 +1,7 @@
 tap "homebrew/bundle"
+tap "oven-sh/bun"
 brew "gh"
+brew "oven-sh/bun/bun"
 cask "arc"
 cask "browserosaurus"
 cask "figma"
