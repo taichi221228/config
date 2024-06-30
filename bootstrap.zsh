@@ -10,6 +10,7 @@ zsh ./duti/init.zsh
 zsh ./dict/init.zsh
 zsh ./onyx/init.zsh
 zsh ./ssh/init.zsh
+zsh ./volta/init.zsh
 
 defaults write -g ApplePressAndHoldEnabled -bool false
 
