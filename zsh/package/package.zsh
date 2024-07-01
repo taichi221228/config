@@ -5,6 +5,7 @@ PACKAGE="$HOME/Library/Mobile Documents/com~apple~CloudDocs/Configs/general/zsh/
 source "$PACKAGE/general.zsh"
 source "$PACKAGE/directory.zsh"
 source "$PACKAGE/brew.zsh"
+
 source "$PACKAGE/gcloud.zsh"
 source "$PACKAGE/bun.zsh"
 source "$PACKAGE/emacs.zsh"
